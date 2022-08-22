@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project_59">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/flash_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project_59">
+        <activity
+            android:name=".M001_Flash_Act"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".M001_Main_Act"/>
+        <activity android:name=".M002_Detail_Act"/>
+    </application>
+
+</manifest>
